@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+    <defs>
+          <linearGradient id="goldMain" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#e0cda3" />
+                  <stop offset="35%" style="stop-color:#c9a96e" />
+                  <stop offset="65%" style="stop-color:#b8944f" />
+                  <stop offset="100%" style="stop-color:#a88a4e" />
+          </linearGradient>
+          <linearGradient id="goldShine" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" style="stop-color:#dfc9a0" />
+                  <stop offset="50%" style="stop-color:#f0e4cc" />
+                  <stop offset="100%" style="stop-color:#c9a96e" />
+          </linearGradient>
+          <linearGradient id="navyBg" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" style="stop-color:#0f1d36" />
+                  <stop offset="100%" style="stop-color:#0a1628" />
+          </linearGradient>
+          <filter id="glow">
+                  <feGaussianBlur stdDeviation="2" result="blur" />
+                  <feMerge>
+                            <feMergeNode in="blur" />
+                            <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+          </filter>
+    </defs>
+    <circle cx="250" cy="250" r="245" fill="url(#navyBg)" />
+    <circle cx="250" cy="250" r="240" fill="none" stroke="url(#goldMain)" stroke-width="1.2" opacity="0.7" />
+    <circle cx="250" cy="250" r="233" fill="none" stroke="url(#goldMain)" stroke-width="0.4" opacity="0.3" />
+    <path d="M 130 90 Q 130 70, 150 70" fill="none" stroke="url(#goldMain)" stroke-width="1" opacity="0.5" />
+    <path d="M 370 90 Q 370 70, 350 70" fill="none" stroke="url(#goldMain)" stroke-width="1" opacity="0.5" />
+    <path d="M 130 395 Q 130 415, 150 415" fill="none" stroke="url(#goldMain)" stroke-width="1" opacity="0.5" />
+    <path d="M 370 395 Q 370 415, 350 415" fill="none" stroke="url(#goldMain)" stroke-width="1" opacity="0.5" />
+    <g fill="url(#goldMain)" filter="url(#glow)">
+          <path d="M 108 140 L 108 360 L 90 362 L 90 368 L 155 368 L 155 362 L 137 360 L 137 268 L 162 268 L 210 362 L 210 368 L 255 368 L 255 362 L 240 358 L 195 268 Q 225 262, 240 240 Q 255 218, 255 195 Q 255 165, 235 150 Q 215 135, 180 135 L 90 135 L 90 140 Z M 137 145 L 178 145 Q 210 145, 224 158 Q 238 171, 238 195 Q 238 219, 224 233 Q 210 247, 178 247 L 137 247 Z" fill-rule="evenodd" />
+    </g>
+    <g fill="url(#goldShine)" opacity="0.92" filter="url(#glow)">
+          <path d="M 248 140 L 248 360 L 230 362 L 230 368 L 295 368 L 295 362 L 277 360 L 277 268 L 302 268 L 350 362 L 350 368 L 395 368 L 395 362 L 380 358 L 335 268 Q 365 262, 380 240 Q 395 218, 395 195 Q 395 165, 375 150 Q 355 135, 320 135 L 230 135 L 230 140 Z M 277 145 L 318 145 Q 350 145, 364 158 Q 378 171, 378 195 Q 378 219, 364 233 Q 350 247, 318 247 L 277 247 Z" fill-rule="evenodd" />
+    </g>
+    <line x1="140" y1="388" x2="360" y2="388" stroke="url(#goldMain)" stroke-width="0.8" opacity="0.5" />
+    <text x="250" y="412" text-anchor="middle" fill="#c9a96e" font-family="Georgia, 'Palatino Linotype', 'Book Antiqua', Palatino, serif" font-size="13" letter-spacing="4.5" opacity="0.75" font-variant="small-caps">Dra. Rosana Reale</text>
+    <text x="250" y="430" text-anchor="middle" fill="#c9a96e" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="8" letter-spacing="3" opacity="0.5">ENDOCRINOLOGIA E METABOLOGIA</text>
+</svg>
